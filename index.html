@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/js_103_Yura33-dev/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lloyd Jefferson</title>
+    
+    <script type="module" crossorigin src="/js_103_Yura33-dev/commonHelpers.js"></script>
+    <link rel="modulepreload" crossorigin href="/js_103_Yura33-dev/assets/vendor-f124795e.js">
+    <link rel="stylesheet" href="/js_103_Yura33-dev/assets/vendor-aff52511.css">
+    <link rel="stylesheet" href="/js_103_Yura33-dev/assets/index-3a300943.css">
+  </head>
+
+  <body>
+    <header class="header" id="header">
+  <div class="container">
+    <div class="header-container">
+      <nav class="page-nav">
+        <a class="logo" href="./index.html"
+          >LLOYD<span class="logo-span">JEFFERSON.</span></a
+        >
+
+        <div class="nav-wrapper">
+          <div class="darkmode">
+            <button type="button" aria-label="Toggle dark mode"></button>
+          </div>
+
+          <ul class="nav-menu">
+            <li class="nav-menu-item">
+              <a class="nav-menu-link smooth-scroll" href="#about-me"
+                >About me</a
+              >
+            </li>
+            <li class="nav-menu-item">
+              <a class="nav-menu-link smooth-scroll" href="#projects"
+                >Projects</a
+              >
+            </li>
+            <li class="nav-menu-item">
+              <a class="nav-menu-link smooth-scroll" href="#work-together"
+                >Contacts</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <button class="menu-open-btn" type="button" id="openbutton">
+        <svg class="menu-open-btn-icon" aria-label="menu open icon">
+          <use href="/js_103_Yura33-dev/assets/sprite-5d24b482.svg#icon-burger"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="backdrop" id="mobile-menu">
+  <div class="sidebar-menu">
+    <div class="sidebar-header-container">
+      <a class="sidebar-logo" id="sidelogo" href="./index.html"
+        >LLOYD<span class="logo-span">JEFFERSON.</span></a
+      >
+      <button class="menu-close-btn" type="button" id="closebutton">
+        <svg class="menu-close-icon" aria-label="menu close icon">
+          <use href="/js_103_Yura33-dev/assets/sprite-5d24b482.svg#icon-close"></use>
+        </svg>
+      </button>
+    </div>
+    <ul class="sidebar-nav-list">
+      <li class="sidebar-nav-item">
+        <a class="sidebar-nav-link smooth-scroll" href="#about-me" id="ab_me"
+          >About me</a
+        >
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="sidebar-nav-link smooth-scroll" href="#projects" id="prj"
+          >Projects</a
+        >
+      </li>
+      <li class="sidebar-nav-item">
+        <a
+          class="sidebar-nav-link smooth-scroll"
+          href="#work-together"
+          id="cont"
+          >Contacts</a
+        >
+      </li>
+      <li class="sidebar-nav-item">
+        <div class="darkmode">
+          <button type="button" aria-label="Toggle dark mode"></button>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+
+    <main>
+      <section class="section hero">
+  <div class="container">
+    <div class="hero-background-container">
+      <div class="hero-hello-container">
+        <div class="hero-hello-title">
+          <h1 class="hero-title-black">HELLO, I AM</h1>
+          <div class="hero-hello-photo">
+            <picture class="hero-photo">
+              <source
+                media="(min-width: 1158px)"
+                srcset="/js_103_Yura33-dev/assets/dev-photo-web-8a326b1f.png 1x, /js_103_Yura33-dev/assets/dev-photo-web@2x-0b480f78.png 2x"
+              />
+              <source
+                media="(min-width: 768px)"
+                srcset="/js_103_Yura33-dev/assets/dev-photo-tab-b205746b.png 1x, /js_103_Yura33-dev/assets/dev-photo-tab@2x-8b7bbc23.png 2x"
+              />
+              <source
+                media="(max-width: 767px)"
+                srcset="/js_103_Yura33-dev/assets/dev-photo-mob-4ca14bc7.png 1x, /js_103_Yura33-dev/assets/dev-photo-mob@2x-109780eb.png 2x"
+              />
+              <img src="./img/hero/dev-photo-web.png " alt="img (My photo)" />
+            </picture>
+          </div>
+        </div>
+      </div>
+      <div class="hero-fstack-container">
+        <div class="hero-social-container">
+          <ul class="hero-social-ul">
+            <li class="hero-social-li">
+              <a
+                class="hero-social-a"
+                href="https://www.instagram.com/goitclub/"
+                target="_blank"
+                >Instagram</a
+              >
+            </li>
+            <li class="hero-social-li">
+              <a
+                class="hero-social-a"
+                href="https://www.youtube.com/c/GoIT"
+                target="_blank"
+                >Youtube</a
+              >
+            </li>
+            <li class="hero-social-li">
+              <a
+                class="hero-social-a"
+                href="https://www.facebook.com/goITclub/"
+                target="_blank"
+                >Facebook</a
+              >
+            </li>
+            <li class="hero-social-li">
+              <a
+                class="hero-social-a"
+                href="https://github.com/Yura33-dev/project-team-18"
+                target="_blank"
+                >GitHub</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="hero-fstack-title">
+          <h2 class="hero-title-green">FULLSTACK<br />DEVELOPER</h2>
+          <a href="#work-together" class="hero-custom-button smooth-scroll">
+            <div class="hero-button-container">
+              <span class="hero-arrow">
+                <svg class="hero-icon">
+                  <use href="/js_103_Yura33-dev/assets/sprite-5d24b482.svg#icon-right-hero"></use>
+                </svg>
+              </span>
+              <span class="hero-text">ORDER THE PROJECT</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="hero-moto">
+    <p class="hero-moto-p">
+      I WORK WITH PEOPLE ALL OVER THE WORLD TO CREATE
+      <span> IMPRESSIVE</span> AND <span>FUNCTIONAL WEBSITES </span> THAT
+      REFLECT EACH CLIENT’S UNIQUE PERSONALITY.
+    </p>
+  </div>
+</section>
+
+      <section class="section about" id="about-me">
+  <div class="container">
+    <div class="bg-wrapper">
+      <h2 class="title-about">About <span class="me">me</span></h2>
+
+      <div class="about-wrapper">
+        <picture class="about-image">
+          <source
+            srcset="/js_103_Yura33-dev/assets/about-desktop@1-c4b4b061.jpg 1x, /js_103_Yura33-dev/assets/about-desktop@2-1e99f18e.jpg 2x"
+            media="(min-width: 1280px)"
+          />
+
+          <source
+            srcset="/js_103_Yura33-dev/assets/about-tablet@1-c9c40e54.jpg 1x, /js_103_Yura33-dev/assets/about-tablet@2-5c97f3bc.jpg 2x"
+            media="(min-width: 768px)"
+          />
+
+          <source
+            srcset="/js_103_Yura33-dev/assets/about-mobile@1-2677fef1.jpg 1x, /js_103_Yura33-dev/assets/about-mobile@2-58400989.jpg 2x"
+            media="(max-width: 767px)"
+          />
+
+          <img
+            src="/js_103_Yura33-dev/assets/about-desktop@1-c4b4b061.jpg"
+            alt="my photo"
+            width="384"
+            height="448"
+            class="about-image"
+          />
+        </picture>
+
+        <div class="bio-wrapper">
+          <h3 class="classic-title">BIO</h3>
+          <p class="text-style">
+            I'm Lloyd Jefferson, a talented programmer specializing in software
+            development. My expertise spans various programming languages and
+            technologies, and I am dedicated to continually enhancing my skills.
+            I thrive on seeking unconventional and creative solutions to
+            problems, leveraging a high level of analytical skills to
+            effectively tackle even the most challenging tasks.
+          </p>
+          <p class="text-style">
+            Adaptable to both independent and team-oriented work, I collaborate
+            seamlessly with colleagues, exchanging ideas and finding optimal
+            solutions. My professional maturity enables me to navigate
+            challenges and stressful situations with a calm demeanor,
+            maintaining a consistently high quality of work. Committed to
+            self-improvement, I actively engage in studying new technologies and
+            practices to stay current with the latest innovations in the field.
+          </p>
+        </div>
+      </div>
+
+      <div class="content-wrap">
+        <div class="education">
+          <h3 class="classic-title">EDUCATION</h3>
+          <ul class="education-list">
+            <li class="text-style edu-role-mod">
+              2018 - 2019 / Frontend Development Diploma, GoIT IT School, New
+              York
+            </li>
+
+            <li class="text-style edu-role-mod">
+              2019 - 2020 / Advanced Web Development Certificate, GoIT IT
+              School, New York
+            </li>
+            <li class="text-style edu-role-mod">
+              2020 - 2022 / Advanced Blender Animation Techniques, Udemy
+            </li>
+          </ul>
+        </div>
+
+        <div class="role">
+          <h3 class="classic-title">ROLE</h3>
+          <ul class="role-list">
+            <li class="text-style edu-role-mod">Frontend development</li>
+            <li class="text-style edu-role-mod">HeadlessCMS, Wordpress</li>
+            <li class="text-style edu-role-mod">Blender (enjoy)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="section tech-skills">
+  <h2 class="visually-hidden">Technical Skills</h2>
+  <div class="marquee">
+    <div class="marquee__inner green-cube">
+      <p class="marquee__line">
+        <span class="wrap">HTML/CSS</span> <span class="wrap">JavaScript</span>
+        <span class="wrap"> React</span> <span class="wrap">Node. js</span>
+        <span class="wrap">React Native</span>
+        <span class="wrap">Typescript</span>
+      </p>
+      <p class="marquee__line">
+        <span class="wrap">HTML/CSS</span> <span class="wrap">JavaScript</span>
+        <span class="wrap"> React</span> <span class="wrap">Node. js</span>
+        <span class="wrap">React Native</span>
+        <span class="wrap">Typescript</span>
+      </p>
+    </div>
+    <div class="marquee__inner black-cube">
+      <p class="marquee__line color-mode">
+        <span class="wrap black-magic">HTML/CSS</span>
+        <span class="wrap black-magic">JavaScript</span>
+        <span class="wrap"> React</span>
+        <span class="wrap black-magic">Node. js</span>
+        <span class="wrap black-magic">React Native</span>
+        <span class="wrap black-magic">Typescript</span>
+      </p>
+      <p class="marquee__line color-mode">
+        <span class="wrap black-magic">HTML/CSS</span>
+        <span class="wrap black-magic">JavaScript</span>
+        <span class="wrap black-magic"> React</span>
+        <span class="wrap black-magic">Node. js</span>
+        <span class="wrap black-magic">React Native</span>
+        <span class="wrap black-magic">Typescript</span>
+      </p>
+    </div>
+  </div>
+</section>
+      <section class="section my-projects" id="projects">
+  <div class="container">
+    <h2 class="my-projects-title">
+      My <span class="my-projects-title-accent">projects</span>
+    </h2>
+    <ul class="my-projects-list list"></ul>
+    <button class="btn-load-more" type="button">
+      <span class="button-text">load more</span>
+    </button>
+  </div>
+</section>
+
+      <section class="section benefits" id="Benefits">
+  <div class="container">
+    <div class="wrapper">
+      <h2 class="benefits-title">
+        <span class="title-word">Benefits</span> of working with me
+      </h2>
+      <ul class="benefits-list">
+        <li class="benefits-list-item">
+          <div class="ben-icon">
+            <svg width="24" height="24">
+              <use href="/js_103_Yura33-dev/assets/sprite-5d24b482.svg#icon-user"></use>
+            </svg>
+          </div>
+          <h3 class="benefits-item-title">Expertise</h3>
+          <p class="benefits-item-txt">
+            With extensive experience in development, I have a deep
+            understanding of programming and website development.
+          </p>
+        </li>
+        <li class="benefits-list-item">
+          <div class="ben-icon">
+            <svg width="24" height="24">
+              <use href="/js_103_Yura33-dev/assets/sprite-5d24b482.svg#icon-chat"></use>
+            </svg>
+          </div>
+          <h3 class="benefits-item-title">Communication</h3>
+          <p class="benefits-item-txt">
+            Understanding your needs and wants is my priority and I am always
+            available for discussions and open to corrections.
+          </p>
+        </li>
+        <li class="benefits-list-item">
+          <div class="ben-icon">
+            <svg width="24" height="24">
+              <use href="/js_103_Yura33-dev/assets/sprite-5d24b482.svg#icon-brush"></use>
+            </svg>
+          </div>
+          <h3 class="benefits-item-title">Art</h3>
+          <p class="benefits-item-txt">
+            Thanks to my creative nature, I am ready to accept challenges and
+            help you bring your ideas to life.
+          </p>
+        </li>
+        <li class="benefits-list-item">
+          <div class="ben-icon">
+            <svg width="24" height="24">
+              <use href="/js_103_Yura33-dev/assets/sprite-5d24b482.svg#icon-hourglass"></use>
+            </svg>
+          </div>
+          <h3 class="benefits-item-title">Urgent execution</h3>
+          <p class="benefits-item-txt">
+            I understand how important time is to you. Ready to work quickly and
+            efficiently, without reducing the quality of work.
+          </p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+      <section class="section faq">
+  <div class="container">
+    <div class="wrapper-faq">
+      <h2 class="faq-title">
+        frequently asked <span class="faq-title-span">question</span>
+      </h2>
+      <div class="faq-desctop">
+        <ul class="faq-list accordion-container">
+          <li class="faq-item ac">
+            <div class="item-title-wrap ac-trigger">
+              <h3 class="faq-item-title ac-header">
+                What programming languages ​​are most often used in your
+                project?
+              </h3>
+              <div class="faq-item-arrow">
+                <svg class="faq-scroll-button-icon" width="32" height="32">
+                  <use href="/js_103_Yura33-dev/assets/sprite-5d24b482.svg#icon-above"></use>
+                </svg>
+              </div>
+            </div>
+            <div class="faq-item-wrapper ac-panel">
+              <p class="faq-item-text ac-text">
+                In the field of web development, there are various technologies
+                and programming languages. Typically, this includes a
+                combination of frontend (client side) and backend (server side)
+                languages.
+              </p>
+            </div>
+          </li>
+
+          <li class="faq-item ac">
+            <div class="item-title-wrap ac-trigger">
+              <h3 class="faq-item-title ac-header">
+                What are the deadlines for the project?
+              </h3>
+              <div class="faq-item-arrow">
+                <svg class="faq-scroll-button-icon" width="32" height="32">
+                  <use href="/js_103_Yura33-dev/assets/sprite-5d24b482.svg#icon-down"></use>
+                </svg>
+              </div>
+            </div>
+            <div class="faq-item-wrapper ac-panel">
+              <p class="faq-item-text ac-text">
+                The terms of project implementation depend to a large extent on
+                a number of factors, such as the scope of the project, its
+                complexity, and the availability of resources. Determining exact
+                deadlines is a difficult task, and it usually occurs during the
+                planning phase of the project.
+              </p>
+            </div>
+          </li>
+
+          <li class="faq-item ac">
+            <div class="item-title-wrap ac-trigger">
+              <h3 class="faq-item-title ac-header">
+                What payment methods do you accept?
+              </h3>
+              <div class="faq-item-arrow">
+                <svg class="faq-scroll-button-icon" width="32" height="32">
+                  <use href="/js_103_Yura33-dev/assets/sprite-5d24b482.svg#icon-down"></use>
+                </svg>
+              </div>
+            </div>
+            <div class="faq-item-wrapper ac-panel">
+              <p class="faq-item-text ac-text">
+                Payment through credit and debit cards such as Visa, MasterCard,
+                specialized electronic payment systems such as PayPal, as well
+                aspayments in cryptocurrencies such as Bitcoin, Ethereum and
+                others.
+              </p>
+            </div>
+          </li>
+
+          <li class="faq-item ac">
+            <div class="item-title-wrap ac-trigger">
+              <h3 class="faq-item-title ac-header">How can I contact you?</h3>
+              <div class="faq-item-arrow">
+                <svg class="faq-scroll-button-icon" width="32" height="32">
+                  <use href="/js_103_Yura33-dev/assets/sprite-5d24b482.svg#icon-down"></use>
+                </svg>
+              </div>
+            </div>
+            <div class="faq-item-wrapper ac-panel">
+              <p class="faq-item-text ac-text">
+                In the field of web development, there are various technologies
+                and programming languages. Typically, this includes a
+                combination of frontend (client side) and backend (server side)
+                languages.
+              </p>
+            </div>
+          </li>
+
+          <li class="faq-item ac">
+            <div class="item-title-wrap ac-trigger">
+              <h3 class="faq-item-title ac-header">
+                Do you provide advice or support?
+              </h3>
+              <div class="faq-item-arrow">
+                <svg class="faq-scroll-button-icon" width="32" height="32">
+                  <use href="/js_103_Yura33-dev/assets/sprite-5d24b482.svg#icon-down"></use>
+                </svg>
+              </div>
+            </div>
+            <div class="faq-item-wrapper ac-panel">
+              <p class="faq-item-text ac-text">
+                The terms of project implementation depend to a large extent on
+                a number of factors, such as the scope of the project, its
+                complexity, and the availability of resources. Determining exact
+                deadlines is a difficult task, and it usually occurs during the
+                planning phase of the project.
+              </p>
+            </div>
+          </li>
+
+          <li class="faq-item ac">
+            <div class="item-title-wrap ac-trigger">
+              <h3 class="faq-item-title ac-header">
+                What does the process of developing a software product look like
+                from idea to implementation?
+              </h3>
+              <div class="faq-item-arrow">
+                <svg class="faq-scroll-button-icon" width="32" height="32">
+                  <use href="/js_103_Yura33-dev/assets/sprite-5d24b482.svg#icon-down"></use>
+                </svg>
+              </div>
+            </div>
+            <div class="faq-item-wrapper ac-panel">
+              <p class="faq-item-text ac-text">
+                Payment through credit and debit cards such as Visa, MasterCard,
+                specialized electronic payment systems such as PayPal, as well
+                as payments in cryptocurrencies such as Bitcoin, Ethereum and
+                others.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="section reviews">
+    <div class="container slider-container">
+        <h2 class="reviews-title">Reviews</h2>
+        
+        <div class=" swiper-scroll">
+            <div class="swiper-container">
+                <ul class="swiper-wrapper">
+                    <!-- Slides -->
+                </ul>
+            </div>
+        </div>
+           
+            <div class="swiper-navigation-wrapper">
+                <div class="swiper-button-prev custom-prev">
+                        <svg class="arrow-custom-left" width="24" aria-label="arrow-left">
+                            <use xlink:href="/js_103_Yura33-dev/assets/sprite-5d24b482.svg#icon-arrow-left"></use>
+                        </svg>
+                </div>
+            
+                <div class="swiper-button-next custom-next">
+                    <svg class="arrow-custom-right" width="24" aria-label="arrow-right">
+                        <use xlink:href="/js_103_Yura33-dev/assets/sprite-5d24b482.svg#icon-arrow-right"></use>
+                    </svg>
+                </div>
+            </div>
+       
+       
+
+        <div id="error-message"></div>
+    </div>
+
+</section>
+
+      <section class="section work-together" id="work-together">
+  <div class="container">
+    <div class="wrapper">
+      <h2 class="title-headline">
+        let’s <span class="green-text">work together</span>
+      </h2>
+      <div class="work-wrapper">
+        <div class="title-contacts-message">
+          <p class="title-text">
+            Contact me to transform your ideas into exceptional solutions.
+          </p>
+          <ul class="title-contacts-tables">
+            <li class="icon-and-text">
+              <svg class="icon-together" width="24" height="24">
+                <use href="/js_103_Yura33-dev/assets/sprite-5d24b482.svg#icon-tel"></use>
+              </svg>
+              <a href="tel:+380904567890">+38 090 456 78 90</a>
+            </li>
+            <li class="icon-and-text">
+              <svg class="icon-together" width="24" height="24">
+                <use href="/js_103_Yura33-dev/assets/sprite-5d24b482.svg#icon-email"></use>
+              </svg>
+              <a href="mailto:lloydjefferson@gmail.com"
+                >lloydjefferson@gmail.com</a
+              >
+            </li>
+            <li class="icon-and-text">
+              <svg class="icon-together" width="24" height="24">
+                <use href="/js_103_Yura33-dev/assets/sprite-5d24b482.svg#icon-location"></use>
+              </svg>
+              USA, New York
+            </li>
+          </ul>
+        </div>
+        <form class="form-message">
+          <input
+            type="email"
+            name="email"
+            placeholder="Your email*"
+            class="rent-input text-input"
+            autocomplete="off"
+            pattern="^\w+(\.\w+)?@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$"
+            title="Incorrect email"
+            required
+          />
+          <div class="email-error">Invalid email, try again</div>
+          <textarea
+            name="comment"
+            placeholder="Message"
+            class="message-together text-input"
+          ></textarea>
+          <button type="submit" class="button-together">SEND MESSAGE</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+    </main>
+    <footer class="footer">
+  <div class="container">
+    <div class="footer-tumb">
+      <div class="footer-tegline">
+        <a class="tagline-logo link" href="./index.html">
+          Lloyd<span class="logo-accent">Jefferson.</span></a
+        >
+      </div>
+
+      <div class="footer-social">
+        <ul class="footer-soc-list list">
+          <li class="footer-soc-item">
+            <a
+              href="https://www.instagram.com/goitclub/"
+              target="_blank"
+              class="footer-soc-link link"
+              >Instagram
+            </a>
+          </li>
+          <li class="footer-soc-item">
+            <a
+              href="https://www.facebook.com/goITclub/"
+              target="_blank"
+              class="footer-soc-link link"
+              >Facebook
+            </a>
+          </li>
+          <li class="footer-soc-item">
+            <a
+              href="https://www.linkedin.com/school/goit-start-your-career-in-it/"
+              target="_blank"
+              class="footer-soc-link link"
+              >Linkedin
+            </a>
+          </li>
+          <li class="footer-soc-item">
+            <a
+              href="https://github.com/Yura33-dev/project-team-18"
+              target="_blank"
+              class="footer-soc-link link"
+              >GitHub
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-copyright">
+      <p class="footer-copyright-text">
+        © Copyright 2024. Made by LloydJefferson
+      </p>
+    </div>
+  </div>
+</footer>
+
+    <div class="overlay"></div>
+
+    
+  </body>
+</html>
